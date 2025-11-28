@@ -1,0 +1,34 @@
+body * {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+main {
+    background-image: url("../img/portfolio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 10rem;
+    margin-top: 5rem;
+}
+
+.text-spacing {
+    letter-spacing: 0.5rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: 20rem;
+}
+
+.full-height-container {
+    /* Por ejemplo, que ocupe toda la altura de la ventana */
+    min-height: 100vh; 
+}
+
+.nav-item:hover .nav-link {
+    background-color: #c5c5c5;
+    text-decoration: underline;
+    border-radius: 10px;
+}
